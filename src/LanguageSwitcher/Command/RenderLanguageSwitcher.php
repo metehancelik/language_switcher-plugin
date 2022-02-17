@@ -61,7 +61,7 @@ class RenderLanguageSwitcher
      */
     protected function findViewFolder()
     {
-        $composer_folder   = base_path() . '/core/visiosoft/language_switcher-plugin/resources/views'; // The location of the views if the user installed the plugin using composer
+        $composer_folder   = base_path() . '/vendor/visiosoft/language_switcher-plugin/resources/views'; // The location of the views if the user installed the plugin using composer
         $manual_folder     = base_path() . '/addons/' . env('APPLICATION_REFERENCE') . '/visiosoft/language_switcher-plugin/resources/views'; // The location of the views if the user installed the plugin manually
         $published_folder  = base_path() . '/resources' . env('APPLICATION_REFERENCE') . 'addons/visiosoft/language_switcher-plugin/views'; // The locations of the views if the user published the views
 
