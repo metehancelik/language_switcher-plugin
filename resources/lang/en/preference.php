@@ -2,7 +2,7 @@
 
 return [
 	'cookie' => [
-		'name' => 'Cookie',
+		'name' => 'Çerez',
 		'instructions' => 'The number of days which the cookie has to last.'
 	]
 ];
